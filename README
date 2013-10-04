@@ -1,0 +1,24 @@
+GROUP MEMBERS :
+Giridhar Kommisetty 
+Venkata Naga Sai Aitharaj
+
+Please run GMAKE to compile the files.
+
+references from Beej Guide for Programming
+
+/*------------------------------------------*/
+Index files are as follows :
+file_index = Indexes the filenames as keys(filenames are in sorted order) and indexes as values but it is present in value ==> key format instead of key ==> value.
+SHA1_index = Indexes the SHA1(SHA1 values are in sorted order) values as keys and indexes as values but it is present in value ==> key format instead of key ==> value.
+vector_index= Indexes the vectors(vector values are in sorted order) values as keys and indexes as values but it is present in value ==> key format instead of key ==> value.
+fileid_index = For sorting the FILE IDs generated during the search request
+cache_file_index = Indexes the cache file names(filename present in cache values are in sorted order) values as keys and indexes as values but it is present in value ==> key format instead of key ==> value.
+cache_sha1_index = Indexes the SHA1 values in cache(SHA1 values are in sorted order) values as keys and indexes as values but it is present in value ==> key format instead of key ==> value.
+cache_vector_index= Indexes the vector indices in cache (SHA1 values are in sorted order) values as keys and indexes as values but it is present in value ==> key format instead of key ==> value.
+fileindex.ini= Stores the file counter value. 
+
+
+During the search procedure:
+Press CTRL + C to terminate search
+
+
